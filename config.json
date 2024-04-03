@@ -1,0 +1,45 @@
+{
+    "token": "",
+    "targetGuild": [""],
+    "allowChannel": [],
+    "allowBot": false,
+    "links": {
+        "invite": {
+            "enabled": true,
+            "action": {
+                "timeout": {
+                    "reason": "Send invite link",
+                    "time": 10000, 
+                    "enabled": false
+                },
+                "delete": true,
+                "kick": {
+                    "reason": "",
+                    "enabled": false
+                },
+                "ban": {
+                    "reason": "",
+                    "enabled": false
+                }
+            }
+        },
+        "all": {
+            "enabled": true,
+            "action": {
+                "timeout": {
+                    "time": "",
+                    "enabled": false
+                },
+                "delete": true,
+                "kick": {
+                    "reason": "",
+                    "enabled": false
+                },
+                "ban": {
+                    "reason": "",
+                    "enabled": false
+                }
+            }
+        }
+    }
+}
